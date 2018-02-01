@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     @IBOutlet weak var Swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
     
@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         bgImg.frame = view.frame // background fit the whole device's frame
     */
     
+        
+    }
+    
+    // interface builder action that will be instantly called when we clicked the back button
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
         
     }
 
